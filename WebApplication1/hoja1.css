@@ -1,0 +1,115 @@
+﻿body {
+    background:#ecf0f1;
+}
+
+#barra{
+    background:linear-gradient(#262626,black);
+    height:100px;
+    width:1365px;
+    box-shadow:1px 1px 5px 3px gray;
+}
+.botonBusca{
+   color:black;
+}
+.botonBusca:hover .inputBusca{
+  
+
+}
+.inputBusca:hover{
+    opacity:1;
+}
+
+#buscador{
+    width:240px;
+    float:right;
+    margin-right:50px;
+    margin-top:-60px;
+    background:none;
+    border-radius:7px;
+    background:#606060;
+}
+
+#logo{
+    background:url(pics/GAP4.png) no-repeat 18% 40% / 75% 50%;
+    height:100px;
+    width:300px;
+}
+.inputBusca{
+    border-radius:5px;
+border:none;
+box-shadow:inset 1px 1px 5px 1px gray;
+opacity:0;
+font-size:20px;
+transition:1.5s;
+background:#bbbbbb;
+transform:translate(2.5px,-2.5px);
+width:87%;
+}
+
+#barraLateral{
+    transition:1.5s;
+    background:linear-gradient(darkgray,#686868);
+    height:557px;
+    width:200px;
+}
+#hide{
+    margin-top:-557px;
+    background:linear-gradient(darkgray,#686868);
+    margin-left:180px;
+    width:23px;
+   vertical-align:central;
+   height:557px;
+ 
+   cursor:pointer;
+}
+#icon{
+    margin-top:250px;
+    margin-left:5px;
+}
+li{
+    list-style:none;
+}
+li a{
+    color: #262626;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+ul{
+    transform:translateY(50px);
+}
+#contenido{
+    display:inline-block;
+}
+#main{
+    margin-top: -500px;
+margin-left: 250px;
+}
+#grafica{
+    box-shadow:1px 1px 2px 1px black;
+    border-radius:10px;
+}
+#teams{
+    display:none;
+}
+#persiana{
+    background:linear-gradient(darkgray,#606060);
+    box-shadow:1px 1px 2px 1px black;
+    color:white;
+    text-shadow:1px 1px 2px black;
+    border-radius:7px;
+    width:110px;
+    margin-top:-450px;
+    margin-left:1200px;
+    font-size:35px;
+    
+}
+#iconChart,#iconTeams{
+    transition:0.5s;
+    cursor:pointer;
+}
+#iconChart:hover{
+    color:#E02B2B;
+   
+}
+#iconTeams:hover{
+    color:#E02B2B;
+}
